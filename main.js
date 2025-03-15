@@ -8,10 +8,10 @@ modeBtn.addEventListener('click', function() {
     html.classList.toggle('dark-mode');
     const img = this.querySelector('img');
     if (html.classList.contains('dark-mode')) {
-        img.src = '../assets/sun.svg';
+        img.src = 'assets/sun.svg';
         img.alt = 'Light mode';
     } else {
-        img.src = '../assets/moon.svg';
+        img.src = 'assets/moon.svg';
         img.alt = 'Dark mode';
     }
 });
